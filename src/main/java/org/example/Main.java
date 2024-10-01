@@ -1,5 +1,12 @@
 package org.example;
 
+import exceptions.InvalidDimensionException;
+import exceptions.InvalidHeightException;
+import exceptions.InvalidRadiusException;
+import geometry2d.Circle;
+import geometry2d.Rectangle;
+import geometry3d.Cylinder;
+
 import java.util.Scanner;
 
 public class Main {
@@ -118,6 +125,62 @@ public class Main {
                 System.out.print("Среднее значение таблицы: " + table.average());
 
                 break;
+            }
+
+            case 6: {
+                double radiusInputted, widthInputted, lengthInputted, heightInputted;
+                String output;
+
+                System.out.print("Введите радиус круга: ");
+                if (scanner.hasNextDouble()) {
+                    radiusInputted = scanner.nextDouble();
+                } else {
+                    System.out.println("Некорректный ввод.");
+                    break;
+                }
+
+                System.out.print("Введите ширину прямоугольника: ");
+                if (scanner.hasNextDouble()) {
+                    widthInputted = scanner.nextDouble();
+                } else {
+                    System.out.println("Некорректный ввод.");
+                    break;
+                }
+
+                System.out.print("Введите длину прямоугольника: ");
+                if (scanner.hasNextDouble()) {
+                    lengthInputted = scanner.nextDouble();
+                } else {
+                    System.out.println("Некорректный ввод.");
+                    break;
+                }
+
+                System.out.print("Введите высоту цилиндра: ");
+                if (scanner.hasNextDouble()) {
+                    heightInputted = scanner.nextDouble();
+                } else {
+                    System.out.println("Некорректный ввод.");
+                    break;
+                }
+
+                try {
+                    Circle circle = new Circle(radiusInputted);
+                    output = circle.toString();
+                    System.out.println(output);
+
+                    Rectangle rectangle = new Rectangle(widthInputted, lengthInputted);
+                    output = rectangle.toString();
+                    System.out.println(output);
+
+                    Cylinder cylinder = new Cylinder(circle, heightInputted);
+                    output = cylinder.toString();
+                    System.out.println(output);
+
+                } catch (InvalidRadiusException | InvalidDimensionException | InvalidHeightException exc) {
+                    System.err.println(exc.getMessage());
+                }
+
+
             }
 
             default: {
