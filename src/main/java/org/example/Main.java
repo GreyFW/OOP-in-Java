@@ -97,6 +97,29 @@ public class Main {
                 break;
             }
 
+            case 5: {
+
+                Table table = new Table(3, 3);
+                System.out.println("Таблица для примера уже заполнена.");
+
+                table.setValue(0, 0, 20);
+                table.setValue(0, 1, 5);
+                table.setValue(1, 1, 4);
+                table.setValue(2, 0, 42);
+                table.setValue(2, 2, 34);
+
+                System.out.println("Значение в 3-3: " + table.getValue(2, 2));
+                System.out.println("Кол-во строк: " + table.rows());
+                System.out.println("Кол-во столбцов: " + table.cols());
+
+                String stringedTable = table.toString();
+                System.out.println("Переведём таблицу в строку: " + stringedTable);
+
+                System.out.print("Среднее значение таблицы: " + table.average());
+
+                break;
+            }
+
             default: {
                 System.out.println("Нет задания с таким номером.");
                 break;
