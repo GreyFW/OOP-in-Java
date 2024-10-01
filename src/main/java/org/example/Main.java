@@ -19,7 +19,14 @@ public class Main {
 
         switch (taskNumber) {
             case 1: {
-
+                Button button = new Button();
+                System.out.println("Нажмём на кнопку 1 раз: ");
+                button.click();
+                System.out.println("Нажмём ещё 4 раза: ");
+                button.click();
+                button.click();
+                button.click();
+                button.click();
                 break;
             }
 
