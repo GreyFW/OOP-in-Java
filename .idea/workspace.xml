@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43b6b58c-171a-4b94-88e0-a28c1bb91f2a" name="Changes" comment="corrected gitignore;&#10;task 2 done;&#10;main modified for task 2;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="43b6b58c-171a-4b94-88e0-a28c1bb91f2a" name="Changes" comment="task 3 done;&#10;main modified for task 3;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,13 +105,22 @@
       <option name="project" value="LOCAL" />
       <updated>1727801254337</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="task 3 done;&#10;main modified for task 3;">
+      <option name="closed" value="true" />
+      <created>1727802374528</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727802374528</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2nd commit,Main modified" />
     <MESSAGE value="Task 1 done" />
     <MESSAGE value="corrected gitignore;&#10;task 2 done;&#10;main modified for task 2;" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected gitignore;&#10;task 2 done;&#10;main modified for task 2;" />
+    <MESSAGE value="task 3 done;&#10;main modified for task 3;" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 3 done;&#10;main modified for task 3;" />
   </component>
 </project>

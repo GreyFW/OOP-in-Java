@@ -20,13 +20,19 @@ public class Main {
         switch (taskNumber) {
             case 1: {
                 Button button = new Button();
-                System.out.println("Нажмём на кнопку 1 раз: ");
-                button.click();
-                System.out.println("Нажмём ещё 4 раза: ");
-                button.click();
-                button.click();
-                button.click();
-                button.click();
+
+                System.out.println("Сколько раз вы хотите нажать на кнопку?");
+                int clickAmount;
+
+                if (scanner.hasNextInt()) {
+                    clickAmount = scanner.nextInt();
+                } else {
+                    System.out.println("Некорректный ввод.");
+                    break;
+                }
+                for (int i = 0; i < clickAmount; i++) {
+                    button.click();
+                }
                 break;
             }
 
