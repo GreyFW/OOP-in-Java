@@ -38,6 +38,7 @@ public class Main {
 
             case 2: {
                 Balance balance = new Balance();
+
                 System.out.println("Положите вес на правую чашу: ");
 
                 if (scanner.hasNextInt()) {
@@ -62,8 +63,8 @@ public class Main {
             }
 
             case 3: {
-
                 Bell bell = new Bell();
+
                 System.out.println("Сколько раз вы хотите позвонить в колокольчик?");
                 int ringAmount;
 
@@ -76,6 +77,22 @@ public class Main {
                 for (int i = 0; i < ringAmount; i++) {
                     bell.sound();
                 }
+
+                break;
+            }
+
+            case 4: {
+                OddEvenSeparator separatedNumbersList = new OddEvenSeparator();
+
+                System.out.println("Вводите целые числа для разделения на чётные/нечётные.");
+                System.out.println("Когда закончите, введите что-то отличное от целого числа.");
+
+                while (scanner.hasNextInt()) {
+                    separatedNumbersList.addNumber(scanner.nextInt());
+                }
+
+                separatedNumbersList.even();
+                separatedNumbersList.odd();
 
                 break;
             }

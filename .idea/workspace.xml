@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43b6b58c-171a-4b94-88e0-a28c1bb91f2a" name="Changes" comment="task 3 done;&#10;main modified for task 3;" />
+    <list default="true" id="43b6b58c-171a-4b94-88e0-a28c1bb91f2a" name="Changes" comment="task 4 class added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OddEvenSeparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +36,9 @@
     "accountId": "b7b38b48-89a5-44df-900a-0cb147b0bc7f"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -113,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727802374528</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task 1 edited, main case 1 edited">
+      <option name="closed" value="true" />
+      <created>1727802621347</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727802621347</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +136,8 @@
     <MESSAGE value="Task 1 done" />
     <MESSAGE value="corrected gitignore;&#10;task 2 done;&#10;main modified for task 2;" />
     <MESSAGE value="task 3 done;&#10;main modified for task 3;" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 3 done;&#10;main modified for task 3;" />
+    <MESSAGE value="task 1 edited, main case 1 edited" />
+    <MESSAGE value="task 4 class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 4 class added" />
   </component>
 </project>
