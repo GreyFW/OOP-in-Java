@@ -9,7 +9,7 @@ public class Cylinder {
 
     public Cylinder(Circle foundation, double height) throws InvalidHeightException {
         if (height <= 0) {
-            throw new InvalidHeightException("Высота не может быть отрицательной.");
+            throw new InvalidHeightException("Высота не может быть отрицательной или равной нулю.");
         }
         this.foundation = foundation;
         this.height = height;

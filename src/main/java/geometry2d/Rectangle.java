@@ -9,7 +9,7 @@ public class Rectangle implements Figure {
 
     public Rectangle(double width, double length) throws InvalidDimensionException {
         if (width <= 0 || length <= 0) {
-            throw new InvalidDimensionException("Стороны прямоугольника не могут быть отрицательными.");
+            throw new InvalidDimensionException("Стороны прямоугольника не могут быть отрицательными или равными 0.");
         }
 
         this.width = width;

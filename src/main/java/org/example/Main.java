@@ -176,11 +176,9 @@ public class Main {
                     output = cylinder.toString();
                     System.out.println(output);
 
-                } catch (InvalidRadiusException | InvalidDimensionException | InvalidHeightException exc) {
-                    System.err.println(exc.getMessage());
+                } catch (InvalidRadiusException | InvalidDimensionException | InvalidHeightException exception) {
+                    System.err.println(exception.getMessage());
                 }
-
-
             }
 
             default: {

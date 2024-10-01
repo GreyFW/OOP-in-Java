@@ -8,7 +8,7 @@ public class Circle implements Figure {
 
     public  Circle(double radius) throws InvalidRadiusException {
         if (radius <= 0) {
-            throw new InvalidRadiusException("Радиус не может быть отрицательным.");
+            throw new InvalidRadiusException("Радиус не может быть отрицательным или равным 0.");
         }
         this.radius = radius;
     }

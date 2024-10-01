@@ -6,7 +6,7 @@ public class Table {
     private  int cols;
     private int[][] cells;
 
-    public  Table(int rows, int cols) {
+    public Table(int rows, int cols) {
         this.rows = rows;
         this.cols = cols;
         this.cells = new int[rows][cols];
