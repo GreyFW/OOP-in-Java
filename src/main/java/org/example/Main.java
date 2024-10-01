@@ -31,12 +31,38 @@ public class Main {
             }
 
             case 2: {
+                Balance balance = new Balance();
+                System.out.println("Положите вес на правую чашу: ");
+
+                if (scanner.hasNextInt()) {
+                    balance.addRight(scanner.nextInt());
+                } else {
+                    System.out.println("Некорректный ввод.");
+                    break;
+                }
+
+
+                System.out.println("Положите вес на левую чашу: ");
+
+                if (scanner.hasNextInt()) {
+                    balance.addLeft(scanner.nextInt());
+                } else {
+                    System.out.println("Некорректный ввод.");
+                    break;
+                }
+
+                System.out.println("Результат: " + balance.result());
 
                 break;
             }
 
             case 3: {
 
+                break;
+            }
+
+            default: {
+                System.out.println("Нет задания с таким номером.");
                 break;
             }
         }
