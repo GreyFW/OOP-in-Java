@@ -50,13 +50,26 @@ public class Main {
                     System.out.println("Некорректный ввод.");
                     break;
                 }
-
                 System.out.println("Результат: " + balance.result());
 
                 break;
             }
 
             case 3: {
+
+                Bell bell = new Bell();
+                System.out.println("Сколько раз вы хотите позвонить в колокольчик?");
+                int ringAmount;
+
+                if (scanner.hasNextInt()) {
+                    ringAmount = scanner.nextInt();
+                } else {
+                    System.out.println("Некорректный ввод.");
+                    break;
+                }
+                for (int i = 0; i < ringAmount; i++) {
+                    bell.sound();
+                }
 
                 break;
             }
